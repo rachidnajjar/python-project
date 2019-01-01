@@ -20,6 +20,7 @@ setup(
     author_email='me@kennethreitz.com',
     url='https://github.com/kennethreitz/samplemod',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    entry_points={'console_scripts': ['sample = sample.__main__:main']},
 )
 
