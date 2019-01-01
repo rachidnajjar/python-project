@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from . import helpers
+import helpers
 
 def get_hmm():
     """Get a thought."""
@@ -10,3 +10,6 @@ def hmm():
     """Contemplation..."""
     if helpers.get_answer():
         print(get_hmm())
+
+if __name__ == '__main__':
+    hmm()
