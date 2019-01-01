@@ -1,4 +1,3 @@
-import sys
 import core
 import datetime
 from models import Personne
